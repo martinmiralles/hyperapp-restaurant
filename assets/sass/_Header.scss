@@ -1,0 +1,42 @@
+header {
+  position: absolute; //made the header go over TopImg stuff
+  width: 100%;
+  color: white;
+  padding: 20px;
+  z-index: 19;
+
+  .logo {
+    display: inline-block;
+    // padding: 20px 10px;
+    font-weight: 900;
+  }
+
+  nav {
+    display: inline-block;
+    float: right;
+    text-align: right;
+
+    a {
+      display: inline-block;
+      color: white;
+      text-decoration: none;
+      padding: 0 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  header {
+    nav {
+      display: inline-block;
+      text-align: center;
+    }
+  }
+}

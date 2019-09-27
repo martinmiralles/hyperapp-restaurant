@@ -1,0 +1,58 @@
+#TopImg {
+  position: relative;
+  background: black;
+  min-height: 500px;
+  height: 100vh;
+  background: linear-gradient(135deg, rgba(0, 0, 0, .9) 0,#002d77 100%);
+  background-image: linear-gradient(135deg, rgba(0, 0, 0, .2) 0, #000 100%), url("https://cdn.foodism.to/gallery/5b6de2c4a794f.jpeg");
+  background-position: center;
+  background-size: cover;
+
+  .title {
+    padding: 200px 0 100px;
+    text-align: right;
+
+    h1 {
+      font-family: $displayFont;
+      text-transform: uppercase;
+      color: white;
+      font-weight: 300;
+      font-size: 5rem;
+    }
+
+    h5 {
+      text-transform: uppercase;
+      color: white;
+      font-weight: 300;
+    }
+
+    .contact-info {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding-top: 200px;
+      text-align: right;
+      color: $paragraphColor;
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+      width: 100%;
+      bottom: 50px;
+
+      .booking {
+        margin-bottom: 10px;
+        color: white;
+      }
+
+      strong {
+        font-weight: bold;
+        color: white;
+      }
+
+      h2 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: white;
+      }
+    }
+  }
+}

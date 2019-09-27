@@ -1,0 +1,45 @@
+body {
+  color: $black;
+}
+
+h2 {
+  font-family: $displayFont;
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin: 0.5rem 0 1.5rem;
+  color: $black;
+}
+
+h5 {
+  color: grey;
+  font-size: 1rem;
+  margin: 1.5rem 0 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+p {
+  font-size: 0.9rem;
+  color: grey;
+  line-height: 2;
+  margin: 0.5rem 0 3.5rem;
+  font-weight: 300;
+}
+
+a {
+  transition: all 0.5s ease-in-out;
+  font-weight: 400;
+
+  &:hover {
+    color: $red;
+  }
+}
+
+strong {
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+}
